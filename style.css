@@ -9,6 +9,9 @@ body{
     background-image: linear-gradient(to right ,rgb(70, 70, 200),purple);
     
 }
+a{
+    text-decoration: none;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -88,27 +91,34 @@ nav ul li a:hover{
 
 }
 .red{
-    color:red
+    color:rgb(50, 8, 237);
 }
 .bt{
-  background-color: rgba(21, 21, 113, 0.544);
+  background-color:  #03A9F4;
   border-radius: 5px;
   padding: 2px;
-  color: aqua;
-  border-color: rgb(181, 139, 62);
+  color: white;
+  border-color: #007AC1  ;
+
 }
 .bt2{
-    background-color: rgba(21, 21, 113, 0.544);
+    background-color: #03A9F4;
     border-radius: 5px;
     padding: 2px;
-    color: aqua;
-    border-color: rgb(181, 139, 62);
+    color: white;
+    border-color: #007AC1 ;
   }
   .bt a:hover{
-    color: brown;
-    font-size: 15px;  
+    color: #00698F; 
+    
+    font-size: 15px; 
+   
 }
 .bt2 a:hover{
-    color: brown;
+    color: #00698F;
     font-size: 15px;  
 }
+#element{
+    color: rgb(254, 148, 0);
+}
+
