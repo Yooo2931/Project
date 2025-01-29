@@ -73,8 +73,11 @@ nav ul li a:hover{
  width: 120%;
  margin:  60px 0px 60px; 
  border-radius: 50%;
- border-color: whitesmoke;
+ 
  background-color: rgba(17, 219, 206, 0.621);
+border-color: yellow;
+     border:8px solid;
+     box-shadow: 2px 4px 9px 5px darkblue;
 
  
 }
