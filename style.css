@@ -9,15 +9,11 @@ body{
     background-image: linear-gradient(to right ,rgb(70, 70, 200),purple);
     
 }
-a{
-    text-decoration: none;
-}
 nav{
     display: flex;
     justify-content: space-between;
     background-color: rgb(60, 13, 88);
     height: 80%;
-    position:sticky;
 
 }
 
@@ -36,6 +32,9 @@ nav{
 }
 .right ul li{
     margin:26px 60px;
+}
+a{
+    text-decoration: none;
 }
 .left{
     font-size: 1.4em;
@@ -74,11 +73,8 @@ nav ul li a:hover{
  width: 120%;
  margin:  60px 0px 60px; 
  border-radius: 50%;
- 
+ border-color: whitesmoke;
  background-color: rgba(17, 219, 206, 0.621);
-border-color: green;
-     border:8px solid;
-     box-shadow: 2px 4px 10px 5px black;
 
  
 }
@@ -95,7 +91,7 @@ border-color: green;
 
 }
 .red{
-    color:#333333;
+    color:rgb(50, 8, 237);
 }
 .bt{
   background-color:  #03A9F4;
@@ -125,4 +121,103 @@ border-color: green;
 #element{
     color: rgb(254, 148, 0);
 }
+.secondsection .section_text{
+    text-align: center;
+    color: lightgray;
+    font-size: 18px;
+}
+.secondsection .title{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: solid;
 
+}
+.about{
+    display: flex;
+}
+.about .aboutleft{
+    color:lightsteelblue;
+    font-size: 18px;
+    margin:150px;
+    padding: 10px;
+    height:500px;
+}
+.thirdsection h1{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: solid;
+    margin: 40px 0px;
+}
+.thirdsection img{
+    width: 550px;
+    height: 550px;
+    border-radius: 10px;
+}
+.thirdsection .projects{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+.thirdsection .project1{
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    background-color: lightskyblue;
+    box-shadow: 5px 5px 5px 2px black ;
+    outline: none;
+    z-index: 11;
+}
+.thirdsection button{
+    text-align: center;
+    margin: 5px;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: rgba(117, 20, 227, 0.697);
+    box-shadow: 2px 2px 1px 2px black ;
+}
+.project1 i{
+    margin: 2px;
+    margin-right:4px ;
+}
+.popcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    z-index: 22;
+    position: relative;
+    bottom: 500px;
+    
+}
+.pop-open{
+    visibility: visible;
+    background-color: rgb(103, 8, 76);
+}
+.popup{
+    width: 600px;
+    height: 350px;
+    border-radius: 50px;
+    border:1px rgb(221, 9, 9);
+    text-align: center;
+    background-color: rgb(13, 44, 74);
+    }
+.popup h1{
+    font-style: 24px;
+    z-index: 111;
+    color:red;
+    text-decoration: solid;
+    font-weight: bold;
+}
+.popup p{
+    color: white;
+    padding: 30px 10px 30px 10px;
+    align-items: flex-start;
+}
+.popup .ok{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(185, 225, 225);
+}
