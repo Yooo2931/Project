@@ -232,12 +232,11 @@ nav ul li a:hover{
     text-align: center;
 }
 .lastsection h1{
-    font-style: 24px;
-    z-index: 111;
-    color:red;
+ text-align: center;
+    font-size: 30px;
     text-decoration: solid;
-    font-weight: bold;   
-    margin: 60px 0px;
+    margin: 40px 0px;
+    font-weight: bold;
 }
 .contactcontainer{
     display: column;
@@ -248,5 +247,5 @@ nav ul li a:hover{
 footer{
     background-color: black;
     color: white;
-    height: 60px;
+    height: 40px;
 }
