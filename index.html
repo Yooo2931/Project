@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css ">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"><img class="png" src="./pictures/2.png">Fazal's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">PROJECT</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="firstsection" id="home">
+        <div class="leftsection">
+            Hi,my name is <span class="red">Fazal Ahmed</span> I'm a <span id="element"></span>
+
+            <div class="btn">
+                <button class="bt"><a href="Hireme\hireme.html">HIRE ME</a></button>
+                <button class="bt2"><a href='resume.pdf' download="resume.pdf">DOWNLOAD RESUME</a></button>
+            </div>
+        </div>
+        <div class="rightsection"><img src="./pictures/2.png" alt="phtp"></div>
+
+    </section><hr>
+    <section class="secondsection" id="about">
+        <p class="section_text">GET TO KNOW MORE</p>
+        <h1 class="title">About Me</h1>
+        <div class="about">
+            <div class="aboutleft">
+                <p>Hello, I'm Fazal, a curious and ambitious Computer Science graduate with a passion for crafting
+                    exceptional web experiences. Proficient in Python and JavaScript, I'm a driven web developer who
+                    enjoys solving problems and building innovative solutions. Always eager to learn and explore new
+                    technologies, I'm excited to contribute my skills and creativity to dynamic projects and collaborate
+                    with like-minded individuals.</p>
+            </div>
+            <div class="aboutright">
+
+            </div>
+
+
+        </div>
+    </section>
+    <hr>
+    <section class="thirdsection" id="project">
+        <h1>PROJECTS</h1>
+        <div class="projects">
+
+            <div class="project1">
+                <img src="project1.jpg" alt=""><br>
+                <button class="github"><i class="fa-brands fa-github"></i>Github</button>
+                <button id="aboutmore" type="submit" onclick="openpop()">About More</button>
+
+            </div>
+            
+
+        </div>
+        <div class="popcontainer">
+            <div class="popup" id="popcontainer">
+                <h1>About More</h1>
+                <p>Detecting fake Instagram accounts is challenging, but machine learning can help predict the likelihood of an account being fake by analyzing various features. Building an accurate model requires a large, diverse dataset and ongoing updates.</p>
+                <button class="ok" type="submit" onclick="closepop()">ok</button>
+
+            </div>
+        </div>
+
+    </section><hr>
+    <section class="lastsection" id="contact">
+        <h1>Contact</h1>
+        <div class="contactcontainer">
+            <input type="text" id="email id" placeholder="Email Adress">
+            <input type="text" id="cno." placeholder="Contact Number">
+            <button type="submit">Submit</button>
+            
+
+        </div>
+    </section>
+    <footer>
+        <p id="footer">Copyright &copy; </p>
+
+    </footer>    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['WEB DEVELOPER', 'WEB DESIGNER', 'FRON-END DEVEOLOPER'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script src="script.js"></script>
+    <script>
+        const currentYear = new Date().getFullYear();
+        document.getElementById("footer").innerHTML +=  `${currentYear}`;
+        console.log("yoo")
+    </script>
+</body>
+
+</html>
